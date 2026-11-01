@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Be Vietnam Pro', 'Trebuchet MS', sans-serif;
+  color: #203e36;
+  background: #f5f4ee;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --paper: #f5f4ee;
+  --ink: #203e36;
+  --green: #245b49;
+  --muted: #62716a;
+  --line: #d7dcd2;
+  --error: #97382c;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+button, input { font: inherit; }
+button, a, input { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; }
+a { color: inherit; }
+button:focus-visible, a:focus-visible, input:focus-visible {
+  outline: 3px solid #387b66;
+  outline-offset: 4px;
+}
+p { margin: 0; }
+::selection { background: #ccdfd0; color: var(--ink); }

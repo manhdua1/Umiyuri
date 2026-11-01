@@ -1,0 +1,53 @@
+# Build output and caches for all services
+**/target/
+**/build/
+**/out/
+**/.gradle/
+**/node_modules/
+**/dist/
+**/coverage/
+*.class
+
+# IDE configuration
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+.springBeans
+.sts4-cache/
+.github/
+
+# Logs and temporary files
+*.log
+*.pid
+*.pid.lock
+*.tmp
+*.swp
+*.swo
+*~
+
+# Local environment files; keep templates versioned
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python virtual environments and caches
+**/.venv/
+**/venv/
+**/env/
+**/__pycache__/
+*.py[cod]
+*$py.class
